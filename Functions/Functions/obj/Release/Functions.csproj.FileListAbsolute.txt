@@ -1,0 +1,66 @@
+C:\Users\Brandon\Google Drive\Functions\Functions\bin\Release\Functions.dll
+C:\Users\Brandon\Google Drive\Functions\Functions\bin\Release\Functions.pdb
+C:\Users\Brandon\Google Drive\Functions\Functions\obj\Release\Functions.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Google Drive\Functions\Functions\obj\Release\Functions.dll
+C:\Users\Brandon\Google Drive\Functions\Functions\obj\Release\Functions.pdb
+C:\Users\Brandon\Google Drive\usefull shit\Functions\Functions\bin\Release\Functions.dll
+C:\Users\Brandon\Google Drive\usefull shit\Functions\Functions\bin\Release\Functions.pdb
+C:\Users\Brandon\Google Drive\usefull shit\Functions\Functions\obj\Release\Functions.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Google Drive\usefull shit\Functions\Functions\obj\Release\Functions.dll
+C:\Users\Brandon\Google Drive\usefull shit\Functions\Functions\obj\Release\Functions.pdb
+C:\Users\Brandon\Google Drive\Playstation 3\usefull shit\Functions\Functions\bin\Release\Functions.dll
+C:\Users\Brandon\Google Drive\Playstation 3\usefull shit\Functions\Functions\bin\Release\Functions.pdb
+C:\Users\Brandon\Google Drive\Playstation 3\usefull shit\Functions\Functions\obj\Release\Functions.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Google Drive\Playstation 3\usefull shit\Functions\Functions\obj\Release\Functions.dll
+C:\Users\Brandon\Google Drive\Playstation 3\usefull shit\Functions\Functions\obj\Release\Functions.pdb
+C:\Users\Brandon\Google Drive\Xbox\useful shit\Functions\Functions\obj\Release\Functions.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Google Drive\Xbox\useful shit\Functions\Functions\obj\Release\Functions.dll
+C:\Users\Brandon\Google Drive\Xbox\useful shit\Functions\Functions\obj\Release\Functions.pdb
+C:\Users\Brandon\Google Drive\Xbox\useful shit\Functions\Functions\bin\Release\Functions.dll
+C:\Users\Brandon\Google Drive\Xbox\useful shit\Functions\Functions\bin\Release\Functions.pdb
+C:\Users\Brandon\Google Drive\Xbox\useful shit\Functions\Functions\bin\Release\XRPC.dll
+E:\Google Drive\Xbox\useful shit\Functions\Functions\bin\Release\XboxLib.dll
+E:\Google Drive\Xbox\useful shit\Functions\Functions\bin\Release\XboxLib.pdb
+E:\Google Drive\Xbox\useful shit\Functions\Functions\obj\Release\XboxLib.dll
+E:\Google Drive\Xbox\useful shit\Functions\Functions\obj\Release\XboxLib.pdb
+C:\Users\Brandon\Desktop\Functions\Functions\bin\Release\MultiAPI.dll
+C:\Users\Brandon\Desktop\Functions\Functions\bin\Release\MultiAPI.pdb
+C:\Users\Brandon\Desktop\Functions\Functions\obj\Release\MultiAPI.Properties.Resources.resources
+C:\Users\Brandon\Desktop\Functions\Functions\obj\Release\Functions.csproj.GenerateResource.Cache
+C:\Users\Brandon\Desktop\Functions\Functions\obj\Release\MultiAPI.dll
+C:\Users\Brandon\Desktop\Functions\Functions\obj\Release\MultiAPI.pdb
+G:\Functions\Functions\obj\Release\Functions.csproj.GenerateResource.Cache
+C:\Users\Brandon\Desktop\New folder (2)\Functions\Functions\obj\Release\Functions.csproj.GenerateResource.Cache
+C:\Users\Brandon\Desktop\New folder (2)\Functions\Functions\bin\Release\MultiLib.dll
+C:\Users\Brandon\Desktop\New folder (2)\Functions\Functions\bin\Release\MultiLib.pdb
+C:\Users\Brandon\Desktop\New folder (2)\Functions\Functions\obj\Release\MultiLib.Properties.Resources.resources
+C:\Users\Brandon\Desktop\New folder (2)\Functions\Functions\obj\Release\MultiLib.dll
+C:\Users\Brandon\Desktop\New folder (2)\Functions\Functions\obj\Release\MultiLib.pdb
+C:\Users\Brandon\Desktop\Projects\New folder (2)\Functions\Functions\obj\Release\MultiLib.Properties.Resources.resources
+C:\Users\Brandon\Desktop\Projects\New folder (2)\Functions\Functions\obj\Release\Functions.csproj.GenerateResource.Cache
+C:\Users\Brandon\Desktop\Projects\New folder (2)\Functions\Functions\obj\Release\MultiLib.dll
+C:\Users\Brandon\Desktop\Projects\New folder (2)\Functions\Functions\obj\Release\MultiLib.pdb
+C:\Users\Brandon\Desktop\Projects\New folder (2)\Functions\Functions\bin\Release\MultiLib.dll
+C:\Users\Brandon\Desktop\Projects\New folder (2)\Functions\Functions\bin\Release\MultiLib.pdb
+C:\Users\Brandon\Desktop\Projects\New folder (2)\Functions\Functions\obj\Release\Functions.csprojResolveAssemblyReference.cache
+G:\Functions\Functions\bin\Release\MultiLib.dll
+G:\Functions\Functions\bin\Release\MultiLib.pdb
+G:\Functions\Functions\obj\Release\MultiLib.Properties.Resources.resources
+G:\Functions\Functions\obj\Release\Functions.csproj.CoreCompileInputs.cache
+G:\Functions\Functions\obj\Release\MultiLib.dll
+G:\Functions\Functions\obj\Release\MultiLib.pdb
+C:\Users\Brandon\Desktop\New folder\Functions\Functions\bin\Release\MultiLib.dll
+C:\Users\Brandon\Desktop\New folder\Functions\Functions\bin\Release\MultiLib.pdb
+C:\Users\Brandon\Desktop\New folder\Functions\Functions\obj\Release\Functions.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Desktop\New folder\Functions\Functions\obj\Release\MultiLib.Properties.Resources.resources
+C:\Users\Brandon\Desktop\New folder\Functions\Functions\obj\Release\Functions.csproj.GenerateResource.Cache
+C:\Users\Brandon\Desktop\New folder\Functions\Functions\obj\Release\Functions.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\New folder\Functions\Functions\obj\Release\MultiLib.dll
+C:\Users\Brandon\Desktop\New folder\Functions\Functions\obj\Release\MultiLib.pdb
+C:\Users\Brandon\source\repos\Functions\Functions\bin\Release\MultiLib.dll
+C:\Users\Brandon\source\repos\Functions\Functions\bin\Release\MultiLib.pdb
+C:\Users\Brandon\source\repos\Functions\Functions\obj\Release\MultiLib.Properties.Resources.resources
+C:\Users\Brandon\source\repos\Functions\Functions\obj\Release\Functions.csproj.GenerateResource.Cache
+C:\Users\Brandon\source\repos\Functions\Functions\obj\Release\Functions.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\source\repos\Functions\Functions\obj\Release\MultiLib.dll
+C:\Users\Brandon\source\repos\Functions\Functions\obj\Release\MultiLib.pdb
