@@ -61,6 +61,11 @@ namespace MultiLib
         {
             return (int)(x * Math.Pow(10, y.ToString().Length)) + y;
         }
+        int ConcatIntString(int x, int y)
+        {
+            string _x = x.ToString("X"), _y = y.ToString("X");
+            return (int)(int.Parse(_x) * Math.Pow(10, y.ToString().Length)) + int.Parse(_y);
+        }
         private void Execute(CodeType T, uint[] address, byte[][] bytes)
         {
             Console.WriteLine("multiline is called");
@@ -228,78 +233,16 @@ namespace MultiLib
             CCAPI.GetProcessList(out PID);
             if (Is_Connected)
                 Is_Connected = CCAPI.AttachProcess(PID[0]) >= 0;
-            if (Is_Connected)
-            {
-                CCAPI.GetProcessName(PID[0], out ProcessName);
-                Final = ProcessName.Contains("ps1_netemu") ? 0x770788 : 0x2cb3f0;
-                Final = Final - CFW();
-            }
             return Is_Connected;
         }
 
         public uint GSC(string GSCode)
         {
-            if ((GSCode != "") | (GSCode != null))
-            {
-                if (ProcessName == "")
-                {
-                    switch (MessageBox.Show("If Process is 'ps1_emu' press 'Yes' \nif Process is ps1_netemu, press 'No' \nif Unsure, press 'Cancel'", "PS3 Not Connected", MessageBoxButtons.YesNoCancel))
-                    {
-                        case DialogResult.Yes:
-                            Final = 0x2cb3f0;
-                            break;
-
-                        case DialogResult.No:
-                            Final = 0x770788;
-                            break;
-
-                        case DialogResult.Cancel:
-                            try
-                            {
-                                bool state = Connect();
-                                if (state)
-                                    MessageBox.Show(string.Format("Your Playstion 1 Process is {0}", ProcessName.Substring(0x12)), "{0}", MessageBoxButtons.OK);
-                            }
-                            catch (Exception)
-                            {
-                            }
-                            break;
-                    }
-                }
-            }
             return (Convert.ToUInt32(GSCode.Split(' ')[0].Remove(0, 2), 0x10) + 0x2cb3f0);
         }
         public uint[] GSC(string[] GSCode)
         {
             uint[] array = new uint[GSCode.Length];
-            if ((GSCode[0] != "") | (GSCode != null))
-            {
-                if (ProcessName == "")
-                {
-                    switch (MessageBox.Show("If Process is 'ps1_emu' press 'Yes' \nif Process is ps1_netemu, press 'No' \nif Unsure, press 'Cancel'", "PS3 Not Connected", MessageBoxButtons.YesNoCancel))
-                    {
-                        case DialogResult.Yes:
-                            Final = 0x2cb3f0;
-                            break;
-
-                        case DialogResult.No:
-                            Final = 0x770788;
-                            break;
-
-                        case DialogResult.Cancel:
-                            try
-                            {
-                                bool state = Connect();
-                                if (state)
-                                    MessageBox.Show(string.Format("Your Playstion 1 Process is {0}", ProcessName.Substring(0x12)), "{0}", MessageBoxButtons.OK);
-                            }
-                            catch (Exception)
-                            {
-                            }
-                            break;
-                    }
-                }
-            }
             for (int i = 0; i < GSCode.Length; i++)
                 array[i] = Convert.ToUInt32(GSCode[i].Split(' ')[0].Remove(0, 2), 0x10) + 0x2cb3f0;
             return array;
