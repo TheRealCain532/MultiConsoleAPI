@@ -766,7 +766,7 @@ namespace MultiLib
             return data;
         }
 
-        internal static byte[] StringToByteArray(string hex)
+        public static byte[] StringToByteArray(string hex)
         {
             try
             {

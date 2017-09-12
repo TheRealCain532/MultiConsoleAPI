@@ -142,6 +142,8 @@ namespace MultiLib
                 result = Common.XboxApi.ConnectTarget();
             if (SetAPI.API == SelectAPI.PCAPI)
                 result = new ApplicationList(this).Show();
+            if (SetAPI.API == SelectAPI.ControlConsole)
+                result = new ConsoleList(this).Show();
             return result;
         }
 
@@ -244,17 +246,16 @@ namespace MultiLib
             else if (SetAPI.API == SelectAPI.PCAPI)
                 Common.PcApi.GetMemory(offset, buffer);
         }
-        //public int GetMemory(ulong offset, byte[] buffer)
-        //{
-        //    if (SetAPI.API == SelectAPI.TargetManager)
-        //        return (PS3Lib.NET.PS3TMAPI.ProcessGetMemory(0, PS3Lib.NET.PS3TMAPI.UnitType.PPU, PS3Lib.TMAPI.Parameters.ProcessID, 0, addr, ref val) ==
-        //                PS3Lib.NET.PS3TMAPI.SNRESULT.SN_S_OK);
-        //    else if (SetAPI.API == SelectAPI.ControlConsole)
-        //        return Common.CcApi.GetMemory(offset, buffer);
-        //    else if (SetAPI.API == SelectAPI.XboxNeighborhood)
-        //        return Common.XboxApi.GetMemory(offset, buffer);
-        //    else return 0;
-        //}
+        public int GetMemory(ulong offset, byte[] buffer)
+        {
+            if (SetAPI.API == SelectAPI.TargetManager)
+                return Convert.ToInt32(NET.PS3TMAPI.ProcessGetMemory(0, NET.PS3TMAPI.UnitType.PPU, TMAPI.Parameters.ProcessID, 0, offset, ref buffer));
+            else if (SetAPI.API == SelectAPI.ControlConsole)
+                return Common.CcApi.GetMemory(offset, buffer);
+            else if (SetAPI.API == SelectAPI.XboxNeighborhood)
+                return Common.XboxApi.GetMemory(offset, buffer);
+            else return 0;
+        }
         /// <summary>Get memory from offset with a length using the Selected API.</summary>
         public byte[] GetBytes(uint offset, int length)
         {
