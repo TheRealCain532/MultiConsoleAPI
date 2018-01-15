@@ -44,7 +44,7 @@ namespace MultiLib
                     Common.CcApi = new CCAPI();
             if (API == SelectAPI.XboxNeighborhood)
                 if (Common.XboxApi == null)
-                    Common.XboxApi = new XboxAPI();
+                    Common.XboxApi = new Xbdm();
         }
 
         /// <summary>Read a signed byte.</summary>
@@ -335,7 +335,7 @@ namespace MultiLib
             else if (API == SelectAPI.TargetManager)
                 Common.TmApi.GetMemory(offset, buffer);
             else if (API == SelectAPI.XboxNeighborhood)
-                Common.XboxApi.MemFunc(offset, buffer);
+                Common.XboxApi.GetMemory(offset, buffer);
             else if (API == SelectAPI.PCAPI)
                 Common.PcAPI.GetMemory(offset, buffer);
         }
@@ -358,7 +358,7 @@ namespace MultiLib
         {
             public static CCAPI CcApi;
             public static TMAPI TmApi;
-            public static XboxAPI XboxApi;
+            public static Xbdm XboxApi;
             public static PCAPI PcAPI;
         }
 

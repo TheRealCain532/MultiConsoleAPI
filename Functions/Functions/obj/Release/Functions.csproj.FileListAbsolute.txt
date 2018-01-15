@@ -70,3 +70,5 @@ C:\Users\Brandon\Source\Repos\MultiConsoleAPI\Functions\Functions\obj\Release\Mu
 C:\Users\Brandon\Source\Repos\MultiConsoleAPI\Functions\Functions\obj\Release\Functions.csproj.GenerateResource.Cache
 C:\Users\Brandon\Source\Repos\MultiConsoleAPI\Functions\Functions\obj\Release\MultiLib.dll
 C:\Users\Brandon\Source\Repos\MultiConsoleAPI\Functions\Functions\obj\Release\MultiLib.pdb
+C:\Users\Brandon\source\repos\MultiConsoleAPI\Functions\Functions\obj\Release\Functions.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\source\repos\MultiConsoleAPI\Functions\Functions\obj\Release\Functions.csprojResolveAssemblyReference.cache

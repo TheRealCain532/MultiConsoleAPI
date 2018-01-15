@@ -18,6 +18,7 @@ namespace MultiLib
         {
             get { return new CCAPI(); }
         }
+
         uint BtnMonitor;
         enum CodeType
         {

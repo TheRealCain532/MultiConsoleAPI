@@ -59,18 +59,6 @@ namespace MultiLib
             SetAPI.API = API;
             MakeInstanceAPI(API);
         }
-        bool IsConnected;
-        TMAPI.SCECMD stats = new TMAPI.SCECMD();
-        public Boolean ConnectionStatus()
-        {
-            MakeInstanceAPI(GetCurrentAPI());
-            if (SetAPI.API == SelectAPI.TargetManager)
-                IsConnected = stats.GetStatus() == "Connected";
-            if (SetAPI.API == SelectAPI.ControlConsole)
-                    IsConnected = CCAPI.GetConnectionStatus() > 0;
-
-            return IsConnected;
-        }
         public void setTargetName(string value)
         {
             targetName = value;
@@ -92,7 +80,7 @@ namespace MultiLib
                     Common.CcApi = new CCAPI();
             if (API == SelectAPI.XboxNeighborhood)
                 if (Common.XboxApi == null)
-                    Common.XboxApi = new XboxAPI();
+                    Common.XboxApi = new Xbdm();
             if (API == SelectAPI.PCAPI)
                 if (Common.PcApi == null)
                     Common.PcApi = new PCAPI();
@@ -112,7 +100,7 @@ namespace MultiLib
         {
             public static CCAPI CcApi;
             public static TMAPI TmApi;
-            public static XboxAPI XboxApi;
+            public static Xbdm XboxApi;
             public static PCAPI PcApi;
         }
 
@@ -138,12 +126,15 @@ namespace MultiLib
             bool result = false;
             if (SetAPI.API == SelectAPI.TargetManager)
                 result = Common.TmApi.ConnectTarget(target);
-            if (SetAPI.API == SelectAPI.XboxNeighborhood)
-                result = Common.XboxApi.ConnectTarget();
             if (SetAPI.API == SelectAPI.PCAPI)
                 result = new ApplicationList(this).Show();
             if (SetAPI.API == SelectAPI.ControlConsole)
                 result = new ConsoleList(this).Show();
+            if (SetAPI.API == SelectAPI.XboxNeighborhood)
+            {
+                Common.XboxApi.ConnectTarget();
+                result = Common.XboxApi.IsConnected;
+            }
             return result;
         }
 
@@ -179,8 +170,6 @@ namespace MultiLib
                 Common.TmApi.DisconnectTarget();
             else if (SetAPI.API == SelectAPI.ControlConsole)
                 Common.CcApi.DisconnectTarget();
-            else if (SetAPI.API == SelectAPI.XboxNeighborhood)
-                Common.XboxApi.Disconnect();
         }
 
         /// <summary>Attach the current process (current Game) with selected API.</summary>
@@ -320,9 +309,9 @@ namespace MultiLib
         {
             get { return new CCAPI(); }
         }
-        public XboxAPI XboxAPI
+        public Xbdm XboxAPI
         {
-            get { return new XboxAPI(); }
+            get { return new Xbdm(); }
         }
         public GameShark GameShark
         {
