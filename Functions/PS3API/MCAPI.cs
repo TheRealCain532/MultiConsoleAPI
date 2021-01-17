@@ -1,23 +1,7 @@
 ﻿// ************************************************* //
-//    --- Copyright (c) 2015 iMCS Productions ---    //
 // ************************************************* //
 //              MultiLib v4 By Cain532               //
 //          This is a heavily modified revision      //
-//                                                   //
-// Features v4.5 :                                   //
-// - Support CCAPI v2.60+ C# by iMCSx.               //
-// - Read/Write memory as 'double'.                  //
-// - Read/Write memory as 'float' array.             //
-// - Constructor overload for ArrayBuilder.          //
-// - Some functions fixes.                           //
-//                                                   //
-// Credits : Enstone, Buc-ShoTz                      //
-//                                                   //
-// Follow me :                                       //
-//                                                   //
-// FrenchModdingTeam.com                             //
-// Twitter.com/iMCSx                                 //
-// Facebook.com/iMCSx                                //
 //                                                   //
 // ************************************************* //
 
