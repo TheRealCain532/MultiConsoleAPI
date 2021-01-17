@@ -1,7 +1,8 @@
 ﻿// ************************************************* //
 //    --- Copyright (c) 2015 iMCS Productions ---    //
 // ************************************************* //
-//              MultiLib v4 By FM|T iMCSx              //
+//              MultiLib v4 By Cain532               //
+//          This is a heavily modified revision      //
 //                                                   //
 // Features v4.5 :                                   //
 // - Support CCAPI v2.60+ C# by iMCSx.               //
@@ -13,7 +14,7 @@
 // Credits : Enstone, Buc-ShoTz                      //
 //                                                   //
 // Follow me :                                       //
-//                                                   //C:\Users\Brandon\Desktop\Projects\New folder (2)\Functions\Functions\PS3API\MCAPI.cs
+//                                                   //
 // FrenchModdingTeam.com                             //
 // Twitter.com/iMCSx                                 //
 // Facebook.com/iMCSx                                //
